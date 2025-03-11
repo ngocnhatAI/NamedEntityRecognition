@@ -1,6 +1,6 @@
 # Named Entity Recognition (NER) using RNNs & CNNs
 
-This repository contains a PyTorch implementation of Named Entity Recognition (NER) using various deep learning architectures, including RNNs and CNNs. We implement six different models from scratch, progressively improving performance using different techniques such as bidirectionality and convolutional feature extraction.
+This repository provides a PyTorch implementation of Named Entity Recognition (NER) using six deep learning models, including RNNs, CNNs, and their bidirectional variants. We enhance performance with GloVe embeddings for better word representation and feature extraction.
 
 # Models Implemented
 
