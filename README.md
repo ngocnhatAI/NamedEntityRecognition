@@ -1,10 +1,10 @@
 # Named Entity Recognition (NER) with RNNs, CNNs, and BERT
 
-This repository provides a PyTorch-based implementation for Named Entity Recognition (NER) using a range of deep learning models, including RNNs, CNNs, and BERT. We leverage **GloVe word embeddings** for RNN/CNN models and **pretrained BERT** for contextual embeddings, allowing robust entity recognition from both local and global contexts.
+This repository provides a PyTorch-based implementation for Named Entity Recognition (NER) using a range of deep learning models, including RNNs, CNNs, and BERT. I leverage **GloVe word embeddings** for RNN/CNN models and **pretrained BERT** for contextual embeddings, allowing robust entity recognition from both local and global contexts.
 
 ## Models Implemented
 
-We compare several architectures for the NER task:
+I compare several architectures for the NER task:
 
 * **GRU** – Gated Recurrent Unit, a lightweight alternative to LSTM.
 * **LSTM** – Long Short-Term Memory, capturing long-range dependencies.
@@ -28,5 +28,4 @@ We compare several architectures for the NER task:
 
 ## Dataset
 
-We use the standard **CoNLL-2003** dataset, which includes annotations for four entity types: `PER` (person), `ORG` (organization), `LOC` (location), and `MISC` (miscellaneous).
-
+I use the standard **CoNLL-2003** dataset, which includes annotations for four entity types: `PER` (person), `ORG` (organization), `LOC` (location), and `MISC` (miscellaneous).
